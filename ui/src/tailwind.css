@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@ryu/ui/app-ui.css";
+@source "./";
+@source "../../../../packages/ui/src/components/badge.tsx";
+@source "../../../../packages/ui/src/components/button.tsx";
+@source "../../../../packages/ui/src/components/spinner.tsx";
+
+html,
+body,
+#ryu-plugin-root {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: var(--font-sans);
+	font-size: 14px;
+	color: var(--foreground);
+	background: var(--background);
+}
+
+* {
+	border-color: var(--border);
+}

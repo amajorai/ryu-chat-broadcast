@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.chat-broadcast",
+  "version": "0.1.14",
+  "description": "Send one message to every running chat or a hand-picked set of visible chats, including idle conversations.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-chat-broadcast",
+  "repository": "https://github.com/amajorai/ryu-chat-broadcast",
+  "keywords": [
+    "chat",
+    "broadcast",
+    "announcement",
+    "multi-chat",
+    "coordination"
+  ],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/chat-broadcast",
+      "displayName": "Chat Broadcast"
+    }
+  }
+}
